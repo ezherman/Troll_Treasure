@@ -1,0 +1,10 @@
+pyproject.toml
+troll_treasure/__init__.py
+troll_treasure/commands.py
+troll_treasure/game_from_terminal.py
+troll_treasure.egg-info/PKG-INFO
+troll_treasure.egg-info/SOURCES.txt
+troll_treasure.egg-info/dependency_links.txt
+troll_treasure.egg-info/entry_points.txt
+troll_treasure.egg-info/requires.txt
+troll_treasure.egg-info/top_level.txt

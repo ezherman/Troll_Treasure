@@ -1,0 +1,2 @@
+[console_scripts]
+game = troll_treasure.game_from_terminal:process

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "troll_treasure"
+version = "0.0.1"
+requires-python = ">=3.6"
+dependencies = ["PyYAML ~= 6.0.0", "art ~= 5.7.0"]
+
+[project.optional-dependencies]
+dev = ["pytest ~= 7.1.2"]
+
+[project.scripts]
+game = "troll_treasure.game_from_terminal:process"
